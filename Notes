@@ -1,0 +1,39 @@
+	• A path is a sequence of nodes in the order we are visiting. No nodes are repeated in a path except when the source and destination are same 
+	• Walk is a sequences of vertices and edges of a graph. In a walk vertices and edges can be repeated
+	• If all the nodes of the graph are distinct with an exception V0=VN, then such path P is called as closed simple path.
+	• Open walks: when initial and final vertices are different 
+	• Closed walk: when the initial and final vertices are same
+	• Trail: an open walk with no edge if repeated; vertex can be repeated 
+	• Circuit: a graph transversal tht is closed in which there is no edge repeated but vertex can be repeated
+	• Cyclic graph: which starts and ends at the same vertex
+	• A cycle can be defined as the path which has no repeated edges or vertices except the first and last vertices.
+	• A connected graph is the one in which some path exists between every two vertices (u, v) in V. There are no isolated nodes in connected graph
+	• A complete graph is the one in which every node is connected with all other nodes. A complete graph contain n(n-1)/2 edges where n is the number of nodes in the graph.
+	
+	
+	
+	
+	
+	
+
+	• Adjacency List and Adjacency Matrix
+		○ Adjacency List
+			§ When there are more edges are less than the nodes
+		○ Adjacency Matrix
+			§ Dense graph when more edges than nodes
+		
+	• DFS
+		○ Use stack 
+		○ Used to find cycles in directed and undirected graphs 
+	• BFS
+		○ Use queue
+		○ Finding shortest path in undirected graph
+		○ For the root node push it in queue
+		○ In a loop (works till its not empty)
+	
+	• There can be a maximum nn-2 number of spanning trees that can be created from a complete graph.
+	• A spanning tree has n-1 edges, where 'n' is the number of nodes.
+	
+	
+	
+

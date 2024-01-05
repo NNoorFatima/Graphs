@@ -18,7 +18,7 @@
 
 	• Adjacency List and Adjacency Matrix
 		○ Adjacency List
-			§ When there are more edges are less than the nodes
+			§ When the edges are less than the nodes
 		○ Adjacency Matrix
 			§ Dense graph when more edges than nodes
 		
